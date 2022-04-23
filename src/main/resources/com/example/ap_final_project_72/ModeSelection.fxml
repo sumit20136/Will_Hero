@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap_final_project_72.ModeSelection">
+    <children>
+        <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@images/home_page.png" />
+        </ImageView>
+        <ImageView fx:id="HeroImage" fitHeight="57.0" fitWidth="89.0" layoutX="122.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@images/HERO.png" />
+        </ImageView>
+        <ImageView fx:id="OrcImage2" fitHeight="64.0" fitWidth="75.0" layoutX="788.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@images/orc1.jpg" />
+        </ImageView>
+        <ImageView fx:id="OrcImage3" fitHeight="64.0" fitWidth="75.0" layoutX="859.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@images/orc1.jpg" />
+        </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="147.0" layoutX="244.0" layoutY="100.0">
+         <image>
+            <Image url="@images/easy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="149.0" fitWidth="147.0" layoutX="387.0" layoutY="118.0">
+         <image>
+            <Image url="@images/medium.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="184.0" fitWidth="131.0" layoutX="534.0" layoutY="90.0">
+         <image>
+            <Image url="@images/hard.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="easy" layoutX="242.0" layoutY="120.0" mnemonicParsing="false" onAction="#easy_mode" opacity="0.0" prefHeight="139.0" prefWidth="147.0" text="Button" />
+      <Button fx:id="medium" layoutX="394.0" layoutY="124.0" mnemonicParsing="false" onAction="#medium_mode" opacity="0.0" prefHeight="131.0" prefWidth="131.0" text="Button" />
+      <Button fx:id="hard" layoutX="530.0" layoutY="90.0" mnemonicParsing="false" onAction="#hard_mode" opacity="0.0" prefHeight="174.0" prefWidth="147.0" text="Button" />
+      <Text layoutX="265.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EASY" wrappingWidth="101.55154037475586">
+         <font>
+            <Font name="HP Simplified Bold" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="381.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEDIUM" wrappingWidth="157.55154037475586">
+         <font>
+            <Font name="HP Simplified Bold" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="549.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HARD" wrappingWidth="101.55154037475586">
+         <font>
+            <Font name="HP Simplified Bold" size="41.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
